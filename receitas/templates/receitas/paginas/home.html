@@ -1,0 +1,8 @@
+{% extends 'global/base.html' %}
+{% block titulo %}Home | {% endblock titulo %}
+
+{% block conteudo %}
+    <div class="main-content main-content-list container">
+        {% include 'receitas/parciais/receita.html' %}
+    </div>
+{% endblock conteudo %}
